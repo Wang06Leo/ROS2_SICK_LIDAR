@@ -29,8 +29,8 @@ cd lidar_ws/src
 git clone https://github.com/your-org/ROS2_LIDAR_SDK.git
 
 # Build the SDK
-cd ~/ros2_ws
-colcon build --packages-select ros2_lidar_sdk
+cd ~/lidar_ws
+colcon build 
 
 # Source the setup file
 source install/setup.bash
