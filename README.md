@@ -21,17 +21,24 @@ sudo apt update
 sudo apt install wireshark
 ```
 ## Before start
+Make a ROS 2 workspace for this lidar sdk
 ```bash
-# Make a ROS 2 workspace for this lidar sdk
-mkdir -p lidar_ws/src  
-# Clone the repository into your ROS 2 workspace
+mkdir -p lidar_ws/src
+```  
+
+Clone the repository into your ROS 2 workspace
+```bash
 cd lidar_ws/src
 git clone https://github.com/your-org/ROS2_LIDAR_SDK.git
+```
 
-# Build the SDK
+Build the SDK
+```bash
 cd ~/lidar_ws
 colcon build 
+```
 
-# Source the setup file
+Source the setup file
+```bash
 source install/setup.bash
-
+```
