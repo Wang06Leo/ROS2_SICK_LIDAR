@@ -42,3 +42,7 @@ Source the setup file
 ```bash
 source install/setup.bash
 ```
+
+Open wire shark to check the ip of the lidar
+You should likely get 192.168.x.x
+
